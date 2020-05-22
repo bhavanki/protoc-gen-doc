@@ -1,5 +1,6 @@
 FROM debian:jessie-slim
-LABEL maintainer="pseudomuto <david.muto@gmail.com>" protoc_version="3.6.1"
+LABEL maintainer="Bill Havanki <bhavanki@cloudera.com>" protoc_version="3.6.1"
+LABEL maintainer.original="pseudomuto <david.muto@gmail.com>" protoc_version="3.6.1"
 
 WORKDIR /
 
