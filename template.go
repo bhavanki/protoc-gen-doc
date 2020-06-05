@@ -391,6 +391,7 @@ type ScalarValue struct {
 	PhpType    string `json:"phpType"`
 	PythonType string `json:"pythonType"`
 	RubyType   string `json:"rubyType"`
+	JsonType   string `json:"jsonType"`
 }
 
 func parseEnum(pe *protokit.EnumDescriptor) *Enum {
